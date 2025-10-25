@@ -13,8 +13,8 @@ public class Main {
         while ((line = data.readLine()) != null){
             liczby.add(Double.valueOf(line));
         }
-
         System.out.println(getOutputInfo(liczby, 0, "Task I.1 \nMartyna Pieczka, 297955", "data_a1.txt"));
+        data.close();
 
         //odczytywanie pliku b
         BufferedReader data2= new BufferedReader(new FileReader("/Users/tynka/IdeaProjects/as1dataseries/inputData/data_b1.txt"));
@@ -30,16 +30,19 @@ public class Main {
             }
         }
         System.out.println(getOutputInfo(liczby2, noOfInvalidRecords, "Task I.2 \nMartyna Pieczka, 297955", "data_b1.txt"));
+        data2.close();
     }
-
+    //wartość maksymalna
     static double getMax(ArrayList<Double> data){
         Collections.sort(data);
         return data.get(data.size()-1);
     }
+    //wartość minimalna
     static double getMin(ArrayList<Double> data){
         Collections.sort(data);
         return data.get(0);
     }
+    //średnia
     static double getMean(ArrayList<Double> data){
         double mean=0;
         for(int i=0; i<data.size(); i++){
@@ -48,6 +51,7 @@ public class Main {
         mean=mean/data.size();
         return mean;
     }
+    //mediana - dla wszystkich przypadków (pamiętając, ze indeksy ArrayList są od 0
     static double getMedian(ArrayList<Double> data){
         Collections.sort(data);
         int n = data.size();
@@ -58,6 +62,7 @@ public class Main {
             return data.get(n/2);
         }
     }
+    //elementy centralne
     static int noOfCentralElements(ArrayList<Double> data){
         double epsilon=(getMax(data)-getMin(data))/100;
         int numberOfCentralEl=0;
@@ -68,6 +73,7 @@ public class Main {
         }
         return numberOfCentralEl;
     }
+    //string końcowy
     static String getOutputInfo(ArrayList<Double> data, int noOfInvalidRecords, String title, String filename){
         String str="";
         String separator= "\n------------------------------\n";
