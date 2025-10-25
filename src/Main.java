@@ -1,5 +1,4 @@
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -7,9 +6,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        String oddzielenie= new String("\n------------------------------\n");
-        File file=new File("data_a1.txt");
-        //odczytywanie pliku
+        //odczytywanie pliku a
         BufferedReader data= new BufferedReader(new FileReader("/Users/tynka/IdeaProjects/as1dataseries/inputData/data_a1.txt"));
         String line;
         ArrayList<Double> liczby=new ArrayList<>();
@@ -17,14 +14,11 @@ public class Main {
             liczby.add(Double.valueOf(line));
         }
 
-        System.out.printf("Task I.1 \nMartyna Pieczka, 297955" + oddzielenie);
-        System.out.println("Data filename: "+file.getName());
-        System.out.println("Length of the series: "+liczby.size());
-        System.out.format("Max value: %.3f\n", getMax(liczby));
-        System.out.format("Min value: %.3f\n", getMin(liczby));
-        System.out.format("Mean value: %.3f\n", getMean(liczby));
-        System.out.format("Median value: %.3f\n", getMedian(liczby));
-        System.out.println("Number of central elements: "+ noOfCentralElements(liczby) + oddzielenie);
+        System.out.println(getOutputInfo(liczby, 0, "Task I.1 \nMartyna Pieczka, 297955", "data_a1.txt"));
+
+        //odczytywanie pliku b
+        BufferedReader data2= new BufferedReader(new FileReader("/Users/tynka/IdeaProjects/as1dataseries/inputData/data_b1.txt"));
+
     }
     static double getMax(ArrayList<Double> data){
         Collections.sort(data);
@@ -61,5 +55,18 @@ public class Main {
             }
         }
         return numberOfCentralEl;
+    }
+    static String getOutputInfo(ArrayList<Double> data, int noOfInvalidRecords, String title, String filename){
+        String str="";
+        String separator= "\n------------------------------\n";
+        str = str + title + separator + "Data filename: " + filename + "\nLength of the series: " + data.size() + String.format("\nMax value: %.3f", getMax(data)) +String.format("\nMin value: %.3f", getMin(data)) + String.format("\nMean value: %.3f", getMean(data)) + String.format("\nMedian %.3f", getMedian(data)) + "\nNumber of central elements: " + noOfCentralElements(data);
+        if(noOfInvalidRecords==0) {
+            str += separator;
+            return str;
+        }
+        else{
+            str="\nNumber of invalid records:" + noOfInvalidRecords + separator;
+            return str;
+        }
     }
 }
