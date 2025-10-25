@@ -18,8 +18,20 @@ public class Main {
 
         //odczytywanie pliku b
         BufferedReader data2= new BufferedReader(new FileReader("/Users/tynka/IdeaProjects/as1dataseries/inputData/data_b1.txt"));
-
+        String line2;
+        ArrayList<Double> liczby2=new ArrayList<>();
+        int noOfInvalidRecords=0;
+        while ((line2 = data2.readLine()) != null){
+            try {
+                liczby2.add(Double.valueOf(line2));
+            }
+            catch(NumberFormatException e){
+                noOfInvalidRecords+=1;
+            }
+        }
+        System.out.println(getOutputInfo(liczby2, noOfInvalidRecords, "Task I.2 \nMartyna Pieczka, 297955", "data_b1.txt"));
     }
+
     static double getMax(ArrayList<Double> data){
         Collections.sort(data);
         return data.get(data.size()-1);
@@ -65,7 +77,7 @@ public class Main {
             return str;
         }
         else{
-            str="\nNumber of invalid records:" + noOfInvalidRecords + separator;
+            str=str+"\nNumber of invalid records: " + noOfInvalidRecords + separator;
             return str;
         }
     }
