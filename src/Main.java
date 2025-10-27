@@ -13,7 +13,7 @@ public class Main {
         while ((line = data.readLine()) != null){
             liczby.add(Double.valueOf(line));
         }
-        System.out.println(getOutputInfo(liczby, 0, "Task I.1 \nMartyna Pieczka, 297955", "data_a1.txt"));
+        System.out.println(getOutputInfo(liczby, 0, "Task I.1", "data_a1.txt"));
         data.close();
 
         //odczytywanie pliku b
@@ -29,7 +29,7 @@ public class Main {
                 noOfInvalidRecords+=1;
             }
         }
-        System.out.println(getOutputInfo(liczby2, noOfInvalidRecords, "Task I.2 \nMartyna Pieczka, 297955", "data_b1.txt"));
+        System.out.println(getOutputInfo(liczby2, noOfInvalidRecords, "Task I.2", "data_b1.txt"));
         data2.close();
     }
     //wartość maksymalna
@@ -77,7 +77,7 @@ public class Main {
     static String getOutputInfo(ArrayList<Double> data, int noOfInvalidRecords, String title, String filename){
         String str="";
         String separator= "\n------------------------------\n";
-        str = str + title + separator + "Data filename: " + filename + "\nLength of the series: " + data.size() + String.format("\nMax value: %.3f", getMax(data)) +String.format("\nMin value: %.3f", getMin(data)) + String.format("\nMean value: %.3f", getMean(data)) + String.format("\nMedian %.3f", getMedian(data)) + "\nNumber of central elements: " + noOfCentralElements(data);
+        str = str + title + "\nMartyna Pieczka, 297955" + separator + "Data filename: " + filename + "\nLength of the series: " + data.size() + String.format("\nMax value: %.3f", getMax(data)) +String.format("\nMin value: %.3f", getMin(data)) + String.format("\nMean value: %.3f", getMean(data)) + String.format("\nMedian %.3f", getMedian(data)) + "\nNumber of central elements: " + noOfCentralElements(data);
         if(noOfInvalidRecords==0) {
             str += separator;
             return str;
