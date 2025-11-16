@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public abstract class Logger {
+abstract public class Logger {
     public enum Level {
         INFO, ERROR, CENTRAL_ELEM, MAX_ELEM, MIN_ELEM
     }
