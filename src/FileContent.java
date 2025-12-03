@@ -1,16 +1,16 @@
 import java.util.ArrayList;
 public class FileContent {
-    private ArrayList<Readout> data;
+    private ArrayList<Sensor> sensors;
     private int noOfInvalidRecords;
     String fileName;
-    public FileContent(ArrayList<Readout> data, int noOfInvalidRecords,
+    public FileContent(ArrayList<Sensor> sensors, int noOfInvalidRecords,
                        String fileName) {
-        this.data = data;
+        this.sensors = sensors;
         this.noOfInvalidRecords = noOfInvalidRecords;
         this.fileName = fileName;
     }
-    public ArrayList<Readout> getData() {
-        return data;
+    public ArrayList<Sensor> getSensors() {
+        return sensors;
     }
     public int getNoOfInvalidRecords() {
         return noOfInvalidRecords;
