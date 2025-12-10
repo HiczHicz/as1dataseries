@@ -25,6 +25,9 @@ public class Main {
 
         //odczytywanie pliku d
         processOneFile("data_d1.txt", "data_d.log", "Task III");
+
+        //odcyztywanie pliku e
+        processOneFile("data_e1.txt", "data_e.log", "Task III.4");
     }
 }
 

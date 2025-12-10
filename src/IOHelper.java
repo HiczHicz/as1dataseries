@@ -23,12 +23,12 @@ public class IOHelper {
                 }
                 else if (parts.length==2){
                     double value = Double.parseDouble(parts[0]);
-                    String uuid = parts[1];
+                    String uuid = parts[1].replace("id:","");
                     addReadoutToSensor(sensors, "<N/A>", new ReadoutWithUuid(value, uuid));
                 }
                 else{
                     double value = Double.parseDouble(parts[0]);
-                    String uuid = parts[1];
+                    String uuid = parts[1].replace("id:","");;
                     String sensorName = parts[2];
                     addReadoutToSensor(sensors, sensorName,new ReadoutWithUuid(value, uuid));
                 }
@@ -57,16 +57,17 @@ public class IOHelper {
     }
     //string końcowy
     static String getOutputInfo(FileContent fContent, String title) {
-        String str = "";
-        String separatorLong = "\n------------------------------";
+        String separatorLong = "\n------------------------------\n";
         String separatorShort="\n-------";
 
         int noOfInvalidRecords = fContent.getNoOfInvalidRecords();
 
-        for(Sensor sensor: fContent.getSensors()){
-            String filename = fContent.getFileName();
+        String filename = fContent.getFileName();
+        String str = title + "\nMartyna Pieczka, 297955" + separatorLong + "Data filename: "+filename;
 
-            str = str + title + "\nMartyna Pieczka, 297955" + separatorLong + "\nData filename: " + filename+separatorShort + "\nSensor name: "+ sensor.getName() +
+        for(Sensor sensor: fContent.getSensors()){
+
+            str =    str+separatorShort + "\nSensor name: "+ sensor.getName() +
                     "\nLength of the series: " + sensor.getLengthOfData() + "\nMax value: " + sensor.getMax() +
                     "\nMin value: " + sensor.getMin().toString() + String.format("\nMean value: %.3f", sensor.getMean())
                     + "\nMedian: " + sensor.getMedian() + "\nNumber of central elements: " + sensor.noOfCentralElements();
