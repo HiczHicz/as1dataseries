@@ -34,4 +34,22 @@ public class IOHelper {
         data.close();
         return new FileContent(sensors, noOfInvalidRecords, filename);
     }
+    //string końcowy
+    static String getOutputInfo(FileContent fContent, String title) {
+        String str = "";
+        String separator = "\n------------------------------\n";
+
+        int noOfInvalidRecords = fContent.getNoOfInvalidRecords();
+        for(Sensor sensor: fContent.getSensors()){
+            String filename = fContent.getFileName();
+
+            str = str + title + "\nMartyna Pieczka, 297955" + separator + "Data filename: " + filename +
+                    "\nLength of the series: " + sensor.getLengthOfData() + "\nMax value: " + sensor.getMax() +
+                    "\nMin value: " + sensor.getMin().toString() + String.format("\nMean value: %.3f", sensor.getMean())
+                    + "\nMedian: " + sensor.getMedian() + "\nNumber of central elements: " + sensor.noOfCentralElements();
+
+        }
+        str = str + "\nNumber of invalid records: " + noOfInvalidRecords + separator;
+        return str;
+    }
 }
