@@ -14,10 +14,12 @@ public class Sensor {
     public void addReadout(Readout readout){
         data.add(readout);
     }
+
     // size
     public int getLengthOfData(){
         return data.size();
     }
+
 
     //wartość maksymalna
     public Readout getMax() {
