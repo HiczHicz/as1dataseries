@@ -1,5 +1,6 @@
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+
 public class LoggerFile extends Logger {
     private final static String LOGS_PATH="logs/"; //Default location of logs
     private String fileName;

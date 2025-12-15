@@ -14,26 +14,21 @@ public class Sensor {
     public void addReadout(Readout readout){
         data.add(readout);
     }
-
     // size
     public int getLengthOfData(){
         return data.size();
     }
-
-
     //wartość maksymalna
     public Readout getMax() {
         Collections.sort(data);
         int size=data.size()-1;
         return data.get(size);
     }
-
     //wartość minimalna
     public Readout getMin() {
         Collections.sort(data);
         return data.get(0);
     }
-
     //średnia
     public double getMean() {
         double mean = 0;
@@ -43,7 +38,6 @@ public class Sensor {
         mean = mean / data.size();
         return mean;
     }
-
     //mediana
     public MedianWrapper getMedian() {
         Collections.sort(data);
@@ -57,7 +51,6 @@ public class Sensor {
             return new MedianWrapper(elem);
         }
     }
-
     //elementy centralne
     public int noOfCentralElements() {
         double epsilon = (getMax().getValue() - getMin().getValue()) / 100;
