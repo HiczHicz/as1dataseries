@@ -71,10 +71,9 @@ public class IOHelper {
             str =    str+separatorShort + "\nSensor name: "+ sensor.getName() +
                     "\nLength of the series: " + sensor.getLengthOfData() + "\nMax value: " + sensor.getMax() +
                     "\nMin value: " + sensor.getMin().toString() + String.format("\nMean value: %.3f", sensor.getMean())
-                    + "\nMedian: " + sensor.getMedian() + "\nNumber of central elements: " + sensor.noOfCentralElements();
-            logger.log(Logger.Level.CENTRAL_ELEM, "Central element for censor [" + sensor.getName() + "]: " + sensor.noOfCentralElements());
-            logger.log(Logger.Level.MAX_ELEM, "Faulty record in [" + sensor.getName()+ "]: " + sensor.getMax());
-            logger.log(Logger.Level.MIN_ELEM, "Faulty record in [" + sensor.getName()+ "]: " + sensor.getMin().toString());
+                    + "\nMedian: " + sensor.getMedian() + "\nNumber of central elements: " + sensor.noOfCentralElements(logger);
+            logger.log(Logger.Level.MAX_ELEM, "Max. element for sensor [" + sensor.getName()+ "]: " + sensor.getMax());
+            logger.log(Logger.Level.MIN_ELEM, "Min. element for sensor [" + sensor.getName()+ "]: " + sensor.getMin().toString());
         }
         str = str + "\nNumber of invalid records: " + noOfInvalidRecords + separatorLong;
         return str;

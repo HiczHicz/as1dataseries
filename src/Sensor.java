@@ -52,14 +52,18 @@ public class Sensor {
         }
     }
     //elementy centralne
-    public int noOfCentralElements() {
+    public int noOfCentralElements(Logger logger) {
         double epsilon = (getMax().getValue() - getMin().getValue()) / 100;
         int numberOfCentralEl = 0;
         for (int i = 0; i < data.size(); i++) {
             if ((getMean() - data.get(i).getValue() < epsilon) && (data.get(i).getValue() - getMean() < epsilon)) {
                 numberOfCentralEl++;
+                logger.log(Logger.Level.CENTRAL_ELEM, "Central element for sensor [" + getName() + "]: " + data.get(i));
             }
         }
+        //for (int i=0; i<numberOfCentralEl; i++){
+        //    logger.log(Logger.Level.CENTRAL_ELEM, "Central element for sensor [" + getName() + "]: " + data.get(i));
+        //}
         return numberOfCentralEl;
     }
  }
