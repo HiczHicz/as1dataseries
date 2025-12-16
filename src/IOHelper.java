@@ -12,6 +12,7 @@ public class IOHelper {
         BufferedReader data = new BufferedReader(new FileReader(path + filename));
         String line;
         ArrayList<Sensor> sensors = new ArrayList<>();
+        logger.log(Logger.Level.INFO, "Started reading file [" + filename+ "] ");
 
         int noOfInvalidRecords = 0;
         while ((line = data.readLine()) != null) {
@@ -37,6 +38,7 @@ public class IOHelper {
             }
         }
         data.close();
+        logger.log(Logger.Level.INFO, "Finished reading file [" + filename+ "] ");
         return new FileContent(sensors, noOfInvalidRecords, filename);
     }
     private static void addReadoutToSensor(ArrayList<Sensor> sensorsList, String sensorName, Readout readout){

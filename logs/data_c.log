@@ -1,3 +1,4 @@
+INFO: Started reading file [data_c1.txt] 
 ERROR: Faulty record in [data_c1.txt]: 9146.91258N7 id:404hhtbn
 ERROR: Faulty record in [data_c1.txt]: 17680.85482R85 id:xrrod4cr
 ERROR: Faulty record in [data_c1.txt]: 13764.3274R76 id:r58b29a6
@@ -219,3 +220,4 @@ ERROR: Faulty record in [data_c1.txt]: 8782.564671S41 id:1rpg8ag1
 ERROR: Faulty record in [data_c1.txt]: 7253.877L91 id:pfacsufm
 ERROR: Faulty record in [data_c1.txt]: 31431.726n33 id:i24zcjhb
 ERROR: Faulty record in [data_c1.txt]: 28178.590692y46 id:02fd0mc4
+INFO: Finished reading file [data_c1.txt] 

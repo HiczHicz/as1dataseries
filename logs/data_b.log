@@ -1,3 +1,4 @@
+INFO: Started reading file [data_b1.txt] 
 ERROR: Faulty record in [data_b1.txt]: 10101.632363L4
 ERROR: Faulty record in [data_b1.txt]: 47212.0768j43
 ERROR: Faulty record in [data_b1.txt]: 27911.3906H92
@@ -285,3 +286,4 @@ ERROR: Faulty record in [data_b1.txt]: 1334.69p43
 ERROR: Faulty record in [data_b1.txt]: 40696.26856f67
 ERROR: Faulty record in [data_b1.txt]: 19051.6022x53
 ERROR: Faulty record in [data_b1.txt]: 57993.16974o39
+INFO: Finished reading file [data_b1.txt] 

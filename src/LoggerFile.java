@@ -7,6 +7,7 @@ public class LoggerFile extends Logger {
     public LoggerFile(String fileName) {
         this.fileName = fileName;
     }
+
     @Override
     public void flush() {
         try (PrintWriter out = new PrintWriter(LOGS_PATH+this.fileName)) {
