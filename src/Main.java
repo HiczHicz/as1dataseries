@@ -5,8 +5,7 @@ public class Main {
     static void processOneFile(String filename, String logFilename, String title) throws IOException{
         Logger logger = new LoggerFile(logFilename);
         FileContent fContent = IOHelper.readFile(filename, logger);
-        Logger loggerSensor = new LoggerStdOut();
-        System.out.println(IOHelper.getOutputInfo(fContent, title, loggerSensor));
+        System.out.println(IOHelper.getOutputInfo(fContent, title, logger));
         logger.flush();
     }
 

@@ -221,3 +221,6 @@ ERROR: Faulty record in [data_c1.txt]: 7253.877L91 id:pfacsufm
 ERROR: Faulty record in [data_c1.txt]: 31431.726n33 id:i24zcjhb
 ERROR: Faulty record in [data_c1.txt]: 28178.590692y46 id:02fd0mc4
 INFO: Finished reading file [data_c1.txt] 
+CENTRAL_ELEM: Central element for censor [<N/A>]: 670
+MAX_ELEM: Faulty record in [<N/A>]: 64536.673 [2h9dt3cq]
+MIN_ELEM: Faulty record in [<N/A>]: 154.460 [mkeecl6k]

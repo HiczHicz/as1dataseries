@@ -1,0 +1,226 @@
+INFO: Started reading file [data_d1.txt] 
+ERROR: Faulty record in [data_d1.txt]: 28463.433501s27 id:vyn34h1a detector8
+ERROR: Faulty record in [data_d1.txt]: 18150.07678p2 id:9g1xi5mk sensor36
+ERROR: Faulty record in [data_d1.txt]: 49054.1184r29 id:jzwpfdbb detector8
+ERROR: Faulty record in [data_d1.txt]: 17011.06w72 id:j6nkalcq detector31
+ERROR: Faulty record in [data_d1.txt]: 8293.558079k34 id:sykjgart series13
+ERROR: Faulty record in [data_d1.txt]: 13459.8729N13 id:t7aghueb detector91
+ERROR: Faulty record in [data_d1.txt]: 15885.90802Q93 id:yde7xstx series70
+ERROR: Faulty record in [data_d1.txt]: 53371.909474N12 id:j0iuqsva detector91
+ERROR: Faulty record in [data_d1.txt]: 1248.848584s94 id:3q5dm88g series68
+ERROR: Faulty record in [data_d1.txt]: 39589.80941q26 id:i44z8ux5 series68
+ERROR: Faulty record in [data_d1.txt]: 12974.0056d23 id:oz2xbgoy sensor23
+ERROR: Faulty record in [data_d1.txt]: 32412.676726M69 id:lwimlkae sensor96
+ERROR: Faulty record in [data_d1.txt]: 35982.317M35 id:qcagpra0 detector91
+ERROR: Faulty record in [data_d1.txt]: 14315.658Z62 id:zkmjthtb sensor48
+ERROR: Faulty record in [data_d1.txt]: 14961.972344K24 id:sdwswkl1 series68
+ERROR: Faulty record in [data_d1.txt]: 2972.7482K56 id:zgas0sk9 detector8
+ERROR: Faulty record in [data_d1.txt]: 25275.9147l54 id:y17n2d2w series70
+ERROR: Faulty record in [data_d1.txt]: 11876.5363N48 id:gcjussie series45
+ERROR: Faulty record in [data_d1.txt]: 35919.0273T85 id:ytg6snxl series45
+ERROR: Faulty record in [data_d1.txt]: 19039.46o68 id:3xyv0bf1 series70
+ERROR: Faulty record in [data_d1.txt]: 35280.837F65 id:z1mb0qjy generator85
+ERROR: Faulty record in [data_d1.txt]: 17139.67011v67 id:4ihxjp5g detector8
+ERROR: Faulty record in [data_d1.txt]: 24410.284J50 id:kf63pezi series13
+ERROR: Faulty record in [data_d1.txt]: 34880.1843Q89 id:iiwe5nvu detector31
+ERROR: Faulty record in [data_d1.txt]: 38115.5837I78 id:rnduaeyc detector61
+ERROR: Faulty record in [data_d1.txt]: 9093.1555F58 id:mnsamp7f series70
+ERROR: Faulty record in [data_d1.txt]: 13493.432T50 id:i3dwl29a detector31
+ERROR: Faulty record in [data_d1.txt]: 11573.5356k26 id:mcnm6iv3 detector31
+ERROR: Faulty record in [data_d1.txt]: 35041.01U40 id:ibym5256 detector31
+ERROR: Faulty record in [data_d1.txt]: 3448.6353t22 id:06edni1y detector91
+ERROR: Faulty record in [data_d1.txt]: 40215.075i98 id:f5nde9lt detector8
+ERROR: Faulty record in [data_d1.txt]: 12625.225289z9 id:qh1jqf51 sensor36
+ERROR: Faulty record in [data_d1.txt]: 29204.7361W52 id:7j0rader series70
+ERROR: Faulty record in [data_d1.txt]: 3149.36z92 id:yflt882c detector61
+ERROR: Faulty record in [data_d1.txt]: 9655.33345o77 id:jb6pa3qi detector61
+ERROR: Faulty record in [data_d1.txt]: 9979.543M16 id:h9g39zpi sensor96
+ERROR: Faulty record in [data_d1.txt]: 19590.311067j1 id:qhprkxl4 sensor48
+ERROR: Faulty record in [data_d1.txt]: 8539.19753P44 id:74vfpmpf sensor36
+ERROR: Faulty record in [data_d1.txt]: 28561.026D68 id:2jyv8vop sensor48
+ERROR: Faulty record in [data_d1.txt]: 24811.209A99 id:shx4ocao detector8
+ERROR: Faulty record in [data_d1.txt]: 21845.463z66 id:rsxdfk2x sensor23
+ERROR: Faulty record in [data_d1.txt]: 42155.41w64 id:6higbaex detector46
+ERROR: Faulty record in [data_d1.txt]: 15344.4744O99 id:suay9x4p sensor48
+ERROR: Faulty record in [data_d1.txt]: 25836.57V31 id:2sikfpy2 series13
+ERROR: Faulty record in [data_d1.txt]: 23727.3042G68 id:9f15appt series70
+ERROR: Faulty record in [data_d1.txt]: 12564.0152F24 id:xk5mf110 series45
+ERROR: Faulty record in [data_d1.txt]: 19189.98969S34 id:yt22y181 sensor36
+ERROR: Faulty record in [data_d1.txt]: 13963.82726h70 id:3fmjuzvw series70
+ERROR: Faulty record in [data_d1.txt]: 25483.708536t49 id:4kk00j8k series70
+ERROR: Faulty record in [data_d1.txt]: 18568.087554J57 id:par8p3v9 generator85
+ERROR: Faulty record in [data_d1.txt]: 41449.31244d94 id:iqexh1z6 detector46
+ERROR: Faulty record in [data_d1.txt]: 16084.46B58 id:vp382n2u series45
+ERROR: Faulty record in [data_d1.txt]: 4535.7004B11 id:hohemqtx sensor23
+ERROR: Faulty record in [data_d1.txt]: 29406.881979F11 id:gygst06m sensor96
+ERROR: Faulty record in [data_d1.txt]: 33267.24022N9 id:480wnjt0 series13
+ERROR: Faulty record in [data_d1.txt]: 17055.71v34 id:xqjfgfg1 sensor48
+ERROR: Faulty record in [data_d1.txt]: 7927.7152T51 id:77e5ud3f detector46
+ERROR: Faulty record in [data_d1.txt]: 38159.84097S39 id:3ci7py03 series70
+ERROR: Faulty record in [data_d1.txt]: 12803.543267U7 id:6dqgdrjl sensor96
+ERROR: Faulty record in [data_d1.txt]: 19285.56j90 id:9z9gcuzm sensor36
+ERROR: Faulty record in [data_d1.txt]: 53580.738479Q51 id:3be8tjyr sensor48
+ERROR: Faulty record in [data_d1.txt]: 25577.8957B98 id:o94btsh0 sensor96
+ERROR: Faulty record in [data_d1.txt]: 28277.13358t51 id:7km3ku8q detector31
+ERROR: Faulty record in [data_d1.txt]: 12461.018029I3 id:tspdxi10 detector8
+ERROR: Faulty record in [data_d1.txt]: 1361.654601S50 id:5s75vmi5 detector46
+ERROR: Faulty record in [data_d1.txt]: 10989.869D36 id:ee2oa3dt series13
+ERROR: Faulty record in [data_d1.txt]: 3266.83735z69 id:9ry4zwqc sensor96
+ERROR: Faulty record in [data_d1.txt]: 14496.96923F74 id:u33priiw sensor48
+ERROR: Faulty record in [data_d1.txt]: 31885.476w3 id:ymuaekd6 series45
+ERROR: Faulty record in [data_d1.txt]: 26831.989N97 id:lj3ah72o series70
+ERROR: Faulty record in [data_d1.txt]: 27316.94f92 id:54ov60ne series68
+ERROR: Faulty record in [data_d1.txt]: 39260.026k66 id:c5kwmmh6 detector8
+ERROR: Faulty record in [data_d1.txt]: 39736.301J76 id:gy72mzay detector31
+ERROR: Faulty record in [data_d1.txt]: 703.94234G99 id:s4yprx7x generator85
+ERROR: Faulty record in [data_d1.txt]: 28119.399S91 id:igo6a9tv detector61
+ERROR: Faulty record in [data_d1.txt]: 50933.1529y23 id:xrhw47np sensor23
+ERROR: Faulty record in [data_d1.txt]: 15398.22113i37 id:vz1mteyy generator85
+ERROR: Faulty record in [data_d1.txt]: 22796.7009v17 id:hc5zk0hs detector91
+ERROR: Faulty record in [data_d1.txt]: 7406.99c29 id:ekd456xt sensor96
+ERROR: Faulty record in [data_d1.txt]: 50959.21d52 id:y5s044p2 sensor96
+ERROR: Faulty record in [data_d1.txt]: 23366.2811I37 id:pk7qwqzh detector8
+ERROR: Faulty record in [data_d1.txt]: 12618.304s16 id:8zesec0f sensor36
+ERROR: Faulty record in [data_d1.txt]: 18441.6909i62 id:4d5rq54j detector91
+ERROR: Faulty record in [data_d1.txt]: 14507.81527c94 id:1e5q0ydq series13
+ERROR: Faulty record in [data_d1.txt]: 17985.46R71 id:0s5ftydf series13
+ERROR: Faulty record in [data_d1.txt]: 22269.64812H86 id:rri8rznb sensor48
+ERROR: Faulty record in [data_d1.txt]: 16332.56286t72 id:0gurteq7 series45
+ERROR: Faulty record in [data_d1.txt]: 28181.67766B98 id:jwvrning generator85
+ERROR: Faulty record in [data_d1.txt]: 27565.732o91 id:lh1yak4t detector46
+ERROR: Faulty record in [data_d1.txt]: 16297.818884i23 id:cnw49ixy detector91
+ERROR: Faulty record in [data_d1.txt]: 636.06743S77 id:o6oe3kkg detector46
+ERROR: Faulty record in [data_d1.txt]: 3146.9J11 id:qfu1xykg sensor23
+ERROR: Faulty record in [data_d1.txt]: 16638.88B0 id:3kckq59y series70
+ERROR: Faulty record in [data_d1.txt]: 53731.284181i59 id:403k5x1z detector46
+ERROR: Faulty record in [data_d1.txt]: 28256.04j64 id:ps9tjb1n sensor23
+ERROR: Faulty record in [data_d1.txt]: 26012.529a57 id:eb9n9rek detector91
+ERROR: Faulty record in [data_d1.txt]: 13125.35d30 id:x92f3m76 detector46
+ERROR: Faulty record in [data_d1.txt]: 47767.92R57 id:ndhttc6q detector8
+ERROR: Faulty record in [data_d1.txt]: 19707.0483o14 id:mqojlxh0 series13
+ERROR: Faulty record in [data_d1.txt]: 32714.193Y39 id:2npcyshl sensor36
+ERROR: Faulty record in [data_d1.txt]: 9593.2026R88 id:vuy30ipg detector8
+ERROR: Faulty record in [data_d1.txt]: 52421.7541O58 id:44ocxncv sensor36
+ERROR: Faulty record in [data_d1.txt]: 21148.3954m10 id:lxbbo958 sensor36
+ERROR: Faulty record in [data_d1.txt]: 32493.4117C29 id:y01cda1v detector8
+ERROR: Faulty record in [data_d1.txt]: 7112.125322v24 id:diclwgql generator85
+ERROR: Faulty record in [data_d1.txt]: 43275.992842C31 id:3ephsrkx generator85
+ERROR: Faulty record in [data_d1.txt]: 22558.85704F57 id:87strca4 sensor96
+ERROR: Faulty record in [data_d1.txt]: 7371.3243x55 id:879fv8uq sensor48
+ERROR: Faulty record in [data_d1.txt]: 7184.71911i12 id:qgpxopoc detector91
+ERROR: Faulty record in [data_d1.txt]: 46140.06611i22 id:88dkajox sensor36
+ERROR: Faulty record in [data_d1.txt]: 9844.856g20 id:pbv88rxb generator85
+ERROR: Faulty record in [data_d1.txt]: 27272.3488j56 id:td8tuzyi detector46
+ERROR: Faulty record in [data_d1.txt]: 51330.315Q1 id:50ebwqdw sensor23
+ERROR: Faulty record in [data_d1.txt]: 28040.59I65 id:vaxw0v2f detector8
+ERROR: Faulty record in [data_d1.txt]: 37008.58D17 id:ikmxxa4l generator85
+ERROR: Faulty record in [data_d1.txt]: 21040.008628q69 id:i2froz7s series13
+ERROR: Faulty record in [data_d1.txt]: 36424.379105T86 id:5ylg5xrs generator85
+ERROR: Faulty record in [data_d1.txt]: 40754.444c77 id:plzxi8dn sensor36
+ERROR: Faulty record in [data_d1.txt]: 10766.8278M12 id:9qhwqc0c series45
+ERROR: Faulty record in [data_d1.txt]: 10066.418P15 id:7yxpyec1 series70
+ERROR: Faulty record in [data_d1.txt]: 4160.088468C78 id:s87xlp8m sensor96
+ERROR: Faulty record in [data_d1.txt]: 56495.2885z8 id:rohw6gzh detector31
+ERROR: Faulty record in [data_d1.txt]: 12032.84n34 id:hi1e3zlt sensor96
+ERROR: Faulty record in [data_d1.txt]: 6108.15633Y64 id:yhsj1vyq series45
+ERROR: Faulty record in [data_d1.txt]: 45940.03j46 id:s8v6zh14 detector8
+ERROR: Faulty record in [data_d1.txt]: 24845.783074h31 id:ia9de1ev sensor96
+ERROR: Faulty record in [data_d1.txt]: 17840.652531m78 id:ju9r74jj detector61
+ERROR: Faulty record in [data_d1.txt]: 7794.484332s17 id:xmzjlgfu series70
+ERROR: Faulty record in [data_d1.txt]: 14228.20472l70 id:hiavtexp detector31
+ERROR: Faulty record in [data_d1.txt]: 36959.7622T95 id:1acgkj1u series45
+ERROR: Faulty record in [data_d1.txt]: 30283.63c30 id:erx5eaor detector46
+ERROR: Faulty record in [data_d1.txt]: 7202.76792n93 id:27cqmcxm detector31
+ERROR: Faulty record in [data_d1.txt]: 18661.01l91 id:qk5gnxqi generator85
+ERROR: Faulty record in [data_d1.txt]: 20285.064m59 id:ri9j172a detector46
+ERROR: Faulty record in [data_d1.txt]: 15822.257J16 id:5pgoiolt generator85
+ERROR: Faulty record in [data_d1.txt]: 5256.3845t44 id:teq40d0q generator85
+ERROR: Faulty record in [data_d1.txt]: 7281.492k89 id:sct8cuwh generator85
+ERROR: Faulty record in [data_d1.txt]: 3262.673542f75 id:0nmshkhn detector61
+ERROR: Faulty record in [data_d1.txt]: 37073.864275m9 id:db9w0krb detector8
+ERROR: Faulty record in [data_d1.txt]: 21889.91782z54 id:7swa7om2 detector31
+ERROR: Faulty record in [data_d1.txt]: 13165.3T62 id:p4bvirwa series68
+ERROR: Faulty record in [data_d1.txt]: 40413.86X81 id:7j5uttu6 detector31
+ERROR: Faulty record in [data_d1.txt]: 24725.243q56 id:eiihc86r sensor36
+ERROR: Faulty record in [data_d1.txt]: 8479.53u17 id:tfi1j1ni series70
+ERROR: Faulty record in [data_d1.txt]: 40094.347F10 id:v9z87b4y generator85
+ERROR: Faulty record in [data_d1.txt]: 14167.142n96 id:3yz1aeh9 series45
+ERROR: Faulty record in [data_d1.txt]: 23250.1559t15 id:znsjow5c series45
+ERROR: Faulty record in [data_d1.txt]: 21706.488g45 id:4v6rrh1v series45
+ERROR: Faulty record in [data_d1.txt]: 4531.896Q66 id:11rh8oln generator85
+ERROR: Faulty record in [data_d1.txt]: 23274.6826k80 id:ln151c39 series13
+ERROR: Faulty record in [data_d1.txt]: 12398.27P5 id:i6zg64w4 detector91
+ERROR: Faulty record in [data_d1.txt]: 45546.238181d5 id:47cf1kcc generator85
+ERROR: Faulty record in [data_d1.txt]: 20648.55138l96 id:7eyup9c9 generator85
+ERROR: Faulty record in [data_d1.txt]: 15670.13492z16 id:ciapan6h detector91
+ERROR: Faulty record in [data_d1.txt]: 6184.885Y36 id:e1etn5aj sensor23
+ERROR: Faulty record in [data_d1.txt]: 21394.1624N77 id:km1pmscr sensor23
+ERROR: Faulty record in [data_d1.txt]: 4907.0354M75 id:250mxte2 detector8
+ERROR: Faulty record in [data_d1.txt]: 8489.937V9 id:8cahbtqy series70
+ERROR: Faulty record in [data_d1.txt]: 24815.49R44 id:sqdlbgox sensor23
+ERROR: Faulty record in [data_d1.txt]: 35221.23H18 id:g0veq0zy detector31
+ERROR: Faulty record in [data_d1.txt]: 17389.3161p91 id:gkdj170g detector91
+ERROR: Faulty record in [data_d1.txt]: 18838.871K60 id:9xeoqovg series13
+ERROR: Faulty record in [data_d1.txt]: 5366.9285z82 id:aiybwqha detector61
+ERROR: Faulty record in [data_d1.txt]: 23041.137896i27 id:xcodbsv8 generator85
+ERROR: Faulty record in [data_d1.txt]: 44666.35b51 id:56tewoqk series45
+ERROR: Faulty record in [data_d1.txt]: 9129.397S68 id:n465qms8 detector61
+ERROR: Faulty record in [data_d1.txt]: 28107.82553y29 id:62idp1je series70
+ERROR: Faulty record in [data_d1.txt]: 15140.95043z2 id:lh46zn0j series13
+ERROR: Faulty record in [data_d1.txt]: 15759.21586x46 id:qkirj27q detector31
+ERROR: Faulty record in [data_d1.txt]: 35019.802391w67 id:36jkdj8r detector46
+ERROR: Faulty record in [data_d1.txt]: 26029.63z16 id:v6v0ckfu series70
+ERROR: Faulty record in [data_d1.txt]: 17356.03Q76 id:xnibeut4 sensor48
+ERROR: Faulty record in [data_d1.txt]: 50854.298557k74 id:nfoj5wg0 series13
+ERROR: Faulty record in [data_d1.txt]: 15753.373B77 id:761yg49q detector46
+ERROR: Faulty record in [data_d1.txt]: 46334.02C91 id:42mdb4cc sensor36
+ERROR: Faulty record in [data_d1.txt]: 7998.43o56 id:t507kte1 sensor23
+ERROR: Faulty record in [data_d1.txt]: 40032.934q59 id:wuqsm2n6 sensor36
+ERROR: Faulty record in [data_d1.txt]: 26313.5632k88 id:6zu2m8wz sensor36
+ERROR: Faulty record in [data_d1.txt]: 6708.76115J86 id:4z0q8kxa detector31
+ERROR: Faulty record in [data_d1.txt]: 19140.43597w27 id:u13sxt76 sensor36
+ERROR: Faulty record in [data_d1.txt]: 30579.50818m31 id:lub28oen detector61
+ERROR: Faulty record in [data_d1.txt]: 15723.993z81 id:qd3yo212 series68
+INFO: Finished reading file [data_d1.txt] 
+CENTRAL_ELEM: Central element for censor [series13]: 28
+MAX_ELEM: Faulty record in [series13]: 61486.669 [tle2i43a]
+MIN_ELEM: Faulty record in [series13]: 419.981 [ae76bty0]
+CENTRAL_ELEM: Central element for censor [sensor36]: 51
+MAX_ELEM: Faulty record in [sensor36]: 63649.298 [027288vv]
+MIN_ELEM: Faulty record in [sensor36]: 370.890 [utwiyisd]
+CENTRAL_ELEM: Central element for censor [detector61]: 52
+MAX_ELEM: Faulty record in [detector61]: 64930.880 [8m1sqf5m]
+MIN_ELEM: Faulty record in [detector61]: 399.578 [wjxl23uu]
+CENTRAL_ELEM: Central element for censor [detector31]: 48
+MAX_ELEM: Faulty record in [detector31]: 64282.732 [tuu3v3xw]
+MIN_ELEM: Faulty record in [detector31]: 260.693 [dzm4lnr6]
+CENTRAL_ELEM: Central element for censor [sensor48]: 38
+MAX_ELEM: Faulty record in [sensor48]: 60914.099 [ztzmljj8]
+MIN_ELEM: Faulty record in [sensor48]: 287.019 [i50dggpa]
+CENTRAL_ELEM: Central element for censor [detector46]: 38
+MAX_ELEM: Faulty record in [detector46]: 63056.718 [nd1mgrkd]
+MIN_ELEM: Faulty record in [detector46]: 546.023 [x5msko3u]
+CENTRAL_ELEM: Central element for censor [detector91]: 29
+MAX_ELEM: Faulty record in [detector91]: 63086.536 [iscylug3]
+MIN_ELEM: Faulty record in [detector91]: 304.818 [yyf5t75y]
+CENTRAL_ELEM: Central element for censor [series68]: 47
+MAX_ELEM: Faulty record in [series68]: 64381.426 [nj3ee77v]
+MIN_ELEM: Faulty record in [series68]: 407.956 [8nx2nvas]
+CENTRAL_ELEM: Central element for censor [generator85]: 28
+MAX_ELEM: Faulty record in [generator85]: 63606.095 [0xrm5a0p]
+MIN_ELEM: Faulty record in [generator85]: 400.560 [d8o4e670]
+CENTRAL_ELEM: Central element for censor [series45]: 52
+MAX_ELEM: Faulty record in [series45]: 64922.932 [lirrmete]
+MIN_ELEM: Faulty record in [series45]: 313.210 [y42qzeao]
+CENTRAL_ELEM: Central element for censor [sensor23]: 32
+MAX_ELEM: Faulty record in [sensor23]: 63601.380 [78mzakig]
+MIN_ELEM: Faulty record in [sensor23]: 581.516 [nx225luc]
+CENTRAL_ELEM: Central element for censor [sensor96]: 45
+MAX_ELEM: Faulty record in [sensor96]: 61165.234 [ka047ipd]
+MIN_ELEM: Faulty record in [sensor96]: 142.600 [jbsuoctz]
+CENTRAL_ELEM: Central element for censor [detector8]: 36
+MAX_ELEM: Faulty record in [detector8]: 63596.597 [ix9toj7m]
+MIN_ELEM: Faulty record in [detector8]: 488.023 [om5wqck9]
+CENTRAL_ELEM: Central element for censor [series70]: 35
+MAX_ELEM: Faulty record in [series70]: 64034.730 [yn572ua8]
+MIN_ELEM: Faulty record in [series70]: 518.786 [adcqixio]

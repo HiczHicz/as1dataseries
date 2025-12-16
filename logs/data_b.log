@@ -287,3 +287,6 @@ ERROR: Faulty record in [data_b1.txt]: 40696.26856f67
 ERROR: Faulty record in [data_b1.txt]: 19051.6022x53
 ERROR: Faulty record in [data_b1.txt]: 57993.16974o39
 INFO: Finished reading file [data_b1.txt] 
+CENTRAL_ELEM: Central element for censor [<N/A>]: 890
+MAX_ELEM: Faulty record in [<N/A>]: 65020.771
+MIN_ELEM: Faulty record in [<N/A>]: 202.317
