@@ -57,7 +57,7 @@ public class IOHelper {
         }
     }
     //string końcowy
-    static String getOutputInfo(FileContent fContent, String title) {
+    static String getOutputInfo(FileContent fContent, String title, Logger logger) {
         String separatorLong = "\n------------------------------\n";
         String separatorShort="\n-------";
 
@@ -72,6 +72,9 @@ public class IOHelper {
                     "\nLength of the series: " + sensor.getLengthOfData() + "\nMax value: " + sensor.getMax() +
                     "\nMin value: " + sensor.getMin().toString() + String.format("\nMean value: %.3f", sensor.getMean())
                     + "\nMedian: " + sensor.getMedian() + "\nNumber of central elements: " + sensor.noOfCentralElements();
+            logger.log(Logger.Level.CENTRAL_ELEM, "Central element for censor [" + sensor.getName() + "]: " + sensor.noOfCentralElements());
+            logger.log(Logger.Level.MAX_ELEM, "Faulty record in [" + sensor.getName()+ "]: " + sensor.getMax());
+            logger.log(Logger.Level.MIN_ELEM, "Faulty record in [" + sensor.getName()+ "]: " + sensor.getMin().toString());
         }
         str = str + "\nNumber of invalid records: " + noOfInvalidRecords + separatorLong;
         return str;
