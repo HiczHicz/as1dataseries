@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Sensor {
+public class Sensor implements Comparable<Sensor> {
     private String name;
     private ArrayList<Readout> data=new ArrayList<>();
 
@@ -66,4 +66,9 @@ public class Sensor {
         //}
         return numberOfCentralEl;
     }
- }
+
+    @Override
+    public int compareTo(Sensor sns) {
+            return this.name.compareTo(sns.name);
+    }
+}

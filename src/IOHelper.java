@@ -37,6 +37,7 @@ public class IOHelper {
         }
         data.close();
         logger.log(Logger.Level.INFO, "Finished reading file [" + filename+ "] ");
+        sensors.sort(null);
         return new FileContent(sensors, noOfInvalidRecords, filename);
     }
     private static void addReadoutToSensor(ArrayList<Sensor> sensorsList, String sensorName, Readout readout){
@@ -81,9 +82,8 @@ public class IOHelper {
         try  (PrintWriter out = new PrintWriter(OUT_PATH+outFilename)){
             out.println(str);
         } catch (FileNotFoundException e) {
-            System.out.println("Can’t flush the log. Please check the filename: "
+            System.out.println("Can’t flush the output. Please check the filename: "
                     + filename);
-
         }
         return str;
 
