@@ -1,6 +1,4 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -28,7 +26,7 @@ public class IOHelper {
                 }
                 else{
                     double value = Double.parseDouble(parts[0]);
-                    String uuid = parts[1].replace("id:","");;
+                    String uuid = parts[1].replace("id:","");
                     String sensorName = parts[2];
                     addReadoutToSensor(sensors, sensorName,new ReadoutWithUuid(value, uuid));
                 }
@@ -57,7 +55,9 @@ public class IOHelper {
         }
     }
     //string końcowy
-    static String getOutputInfo(FileContent fContent, String title, Logger logger) {
+
+    private final static String OUT_PATH="outputData/"; //Default location of out
+    static String getOutputInfo(FileContent fContent, String title, Logger logger, String outFilename) {
         String separatorLong = "\n------------------------------\n";
         String separatorShort="\n-------";
 
@@ -68,14 +68,24 @@ public class IOHelper {
 
         for(Sensor sensor: fContent.getSensors()){
 
-            str =    str+separatorShort + "\nSensor name: "+ sensor.getName() +
+            str =    str + separatorShort + "\nSensor name: "+ sensor.getName() +
                     "\nLength of the series: " + sensor.getLengthOfData() + "\nMax value: " + sensor.getMax() +
                     "\nMin value: " + sensor.getMin().toString() + String.format("\nMean value: %.3f", sensor.getMean())
                     + "\nMedian: " + sensor.getMedian() + "\nNumber of central elements: " + sensor.noOfCentralElements(logger);
             logger.log(Logger.Level.MAX_ELEM, "Max. element for sensor [" + sensor.getName()+ "]: " + sensor.getMax());
             logger.log(Logger.Level.MIN_ELEM, "Min. element for sensor [" + sensor.getName()+ "]: " + sensor.getMin().toString());
         }
+
         str = str + "\nNumber of invalid records: " + noOfInvalidRecords + separatorLong;
+
+        try  (PrintWriter out = new PrintWriter(OUT_PATH+outFilename)){
+            out.println(str);
+        } catch (FileNotFoundException e) {
+            System.out.println("Can’t flush the log. Please check the filename: "
+                    + filename);
+
+        }
         return str;
+
     }
 }
