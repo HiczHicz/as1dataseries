@@ -61,9 +61,6 @@ public class Sensor implements Comparable<Sensor> {
                 logger.log(Logger.Level.CENTRAL_ELEM, "Central element for sensor [" + getName() + "]: " + data.get(i));
             }
         }
-        //for (int i=0; i<numberOfCentralEl; i++){
-        //    logger.log(Logger.Level.CENTRAL_ELEM, "Central element for sensor [" + getName() + "]: " + data.get(i));
-        //}
         return numberOfCentralEl;
     }
 

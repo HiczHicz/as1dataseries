@@ -37,7 +37,10 @@ public class IOHelper {
         }
         data.close();
         logger.log(Logger.Level.INFO, "Finished reading file [" + filename+ "] ");
+
+        //sortowanie
         sensors.sort(null);
+
         return new FileContent(sensors, noOfInvalidRecords, filename);
     }
     private static void addReadoutToSensor(ArrayList<Sensor> sensorsList, String sensorName, Readout readout){
